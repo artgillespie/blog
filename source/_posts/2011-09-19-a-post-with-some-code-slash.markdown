@@ -6,6 +6,16 @@ comments: true
 categories: 
 ---
 
+What do blockquotes look like? 
+
+{% blockquote Jibber Jabbah http://google.com Google %}
+Last night I lay in bed looking up at the stars in the sky and I thought to myself, where the heck is the ceiling.
+{% endblockquote %}
+
+Perhaps we'd do better to embed gists rather than directly embed code?
+
+{% gist 1226891 %}
+
 Let's consider some code. Code might look like this. Or This. Or This:
 
 ``` 
@@ -28,7 +38,7 @@ void MyClass::MyMethod(std::string aStringParam, unsigned long aUnsignedParam) {
 
 And that's all I have to say about that.
 
-``` ruby
+``` 
 class Fixnum
   def prime?
     ('1' * self) !~ /^1?$|^(11+?)\1+$/
