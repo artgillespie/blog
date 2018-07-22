@@ -1,7 +1,9 @@
 baseURL = "https://artgillespie.com/"
 languageCode = "en-us"
-title = "artgillespie.com"
+title = "Art Gillespie"
+theme = "hugo-zen"
 
 [params]
     github = "https://github.com/artgillespie"
     email = "art@tapsquare.com"
+    twitter = "artgillespie"
