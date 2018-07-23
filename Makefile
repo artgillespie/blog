@@ -2,7 +2,7 @@ CLOUDFRONT_DISTRIBUTION_ID := E34360W9NXORIC
 BUCKET_NAME := artgillespie.com-cdn
 
 dev:
-	hugo server --bind 0.0.0.0
+	hugo server --buildDrafts --buildFuture --bind 0.0.0.0
 
 build:
 	hugo --theme=hugo-zen

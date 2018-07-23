@@ -39,6 +39,12 @@ p {
   margin-bottom: 2rem;
 }
 
+code {
+  padding: 8px;
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 8px;
+}
+
 .site-title {
   color: #555;
   text-align: left;
@@ -72,4 +78,21 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.video {
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video embed,
+.video iframe,
+.video object {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
