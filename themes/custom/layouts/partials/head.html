@@ -1,0 +1,10 @@
+{{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>artgillespie.com</title>
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  </head>
+  <body>

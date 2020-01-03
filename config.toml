@@ -6,4 +6,7 @@ theme = "hugo-zen"
 [params]
     github = "https://github.com/artgillespie"
     email = "art@tapsquare.com"
-    twitter = "artgillespie"
+    twitter = "https://twitter.com/artgillespie"
+
+[markup.goldmark.renderer]
+unsafe = true

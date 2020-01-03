@@ -1,0 +1,10 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Art Gillespie <art@tapsquare.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.8.0"
+  }
+}
