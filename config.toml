@@ -2,6 +2,7 @@ baseURL = "https://artgillespie.com/"
 languageCode = "en-us"
 title = "Art Gillespie"
 theme = "hugo-zen"
+googleAnalytics = "UA-156454032-1"
 
 [params]
     github = "https://github.com/artgillespie"
