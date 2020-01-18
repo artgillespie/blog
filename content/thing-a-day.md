@@ -5,6 +5,11 @@ date: 2020-01-16
 
 A couple weeks into January 2020, I was inspired by [Chris Randall](https://www.instagram.com/chris.randall/?hl=en) to start a "creative thing a day" practice and post the results to Instagram. 
 
+### 5/???
+2020-01-17
+
+{{< instagram B7co5I5puh9 >}}
+
 ### 4/???
 2020-01-16
 
