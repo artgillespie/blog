@@ -16,7 +16,6 @@ function setup() {
 }
 
 document.getElementById('play-btn').addEventListener('click', () => {
-  console.log('foo')
   track.setVolume(0.5)
   if (track.isPlaying()) {
     track.pause()
